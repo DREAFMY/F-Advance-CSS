@@ -18,3 +18,20 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+header {
+  background-color: #000;
+  height: 70px;
+  color: #fff;
+}
+
+header nav {
+  height: 100%;
+}
+
+.header-ul {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
