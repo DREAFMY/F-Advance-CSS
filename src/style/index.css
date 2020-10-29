@@ -35,3 +35,18 @@ header nav {
   justify-content: space-around;
   align-items: center;
 }
+
+footer {
+  background-color: #efefef;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+  color: gray;
+}
+
+.footer-link {
+  color: purple;
+}
