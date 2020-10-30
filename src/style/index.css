@@ -40,6 +40,9 @@ footer {
   background-color: #efefef;
   padding: 20px;
   text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 p {
@@ -55,7 +58,8 @@ footer p {
 }
 
 main {
-  margin: 30px 0;
+  padding-top: 30px;
+  padding-bottom: 100px;
   display: flex;
 }
 
@@ -87,7 +91,7 @@ main {
 }
 
 figure img {
-  height: 200px;
+  height: 160px;
   width: 100%;
 }
 
