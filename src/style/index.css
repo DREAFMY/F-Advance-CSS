@@ -32,7 +32,7 @@ header nav {
 .header-ul {
   height: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -106,17 +106,13 @@ figure figcaption {
   color: rgb(16, 77, 245);
 }
 
-.article1 {
+.article1,
+article3 {
   float: left;
-  margin-bottom: 30px !important;
 }
 
 .article2 {
   float: right;
-}
-
-.article3 {
-  float: left;
 }
 
 .main-right {
